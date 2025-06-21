@@ -47,9 +47,9 @@ public class EmployeeController {
     public List<Employee> searchByName(@PathVariable String name){
         return employeeService.findEmployeeByName(name);
     }
-    @GetMapping("/with-department/{id}")
-    public EmployeeWithDepartmentDTO getEmployeeWithDepartment(@PathVariable Long id) {
-        return employeeService.getEmployeeWithDepartment(id);
-    }
+//    @GetMapping("/with-department/{id}")
+//    public EmployeeWithDepartmentDTO getEmployeeWithDepartment(@PathVariable Long id) {
+//        return employeeService.getEmployeeWithDepartment(id);
+//    }
 
 }
