@@ -3,7 +3,7 @@ package com.employee.service.Service;
 import com.employee.service.DTO.Department;
 import com.employee.service.DTO.EmployeeWithDepartmentDTO;
 import com.employee.service.Entity.Employee;
-//import com.employee.service.FeignClient.DepartmentClient;
+import com.employee.service.FeignClient.DepartmentClient;
 import com.employee.service.Repository.EmployeeRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

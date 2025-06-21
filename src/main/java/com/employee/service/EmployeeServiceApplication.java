@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-//@EnableFeignClients(basePackages = "com.employee.service.FeignClient")
+@EnableFeignClients(basePackages = "com.employee.service.FeignClient")
 @SpringBootApplication
 public class EmployeeServiceApplication {
 
